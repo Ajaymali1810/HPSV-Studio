@@ -1,0 +1,156 @@
+<div>
+  <!-- Navbar Section -->
+  <app-navbar></app-navbar>
+
+  <!-- Introduction Section -->
+  <div style="margin-top: 120px">
+    <div class="container-fluid">
+      <p style="text-align: center">
+        <img
+          src="assets/logo.jpeg"
+          alt=""
+          width="200px"
+          height="170px"
+          data-aos="zoom-in"
+        />
+      </p>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h3>WE HAVE 3 YEARS OF EXPERIENCE IN THIS FIELD.</h3>
+            <p style="color: #ff9800; font-size: 40px; margin-top: -50px">
+              _______
+            </p>
+            <p style="color: rgb(101, 99, 99)" data-aos="fade-right">
+              With three years of dedicated experience, HPSV Studio has
+              established itself as a proficient player in the field of
+              architecture and design. Our expertise extends to planning layouts
+              and constructing buildings for prestigious entities like the Pune
+              Corporation, PMRDA, and related offices. Across diverse projects,
+              including public buildings, schools, commercial complexes,
+              residential spaces, bungalows, industrial sheds, corporate
+              offices, and banks, we showcase our versatility in Architecture,
+              Interior Design, and Liasoning. Our commitment to delivering
+              innovative and tailored solutions remains unwavering, ensuring the
+              success of each project we undertake.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="assets/RENDER1.jpg"
+              alt=""
+              class="img-fluid"
+              data-aos="zoom-in"
+              style="box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15)"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 1 - Services -->
+  <div class="container-fluid bg-dark py-5 my-5" data-aos="fade-up">
+    <div class="container">
+      <div class="row justify-content-evenly" data-aos="fade-up">
+        <div class="col-lg-3 bg" data-aos-delay="200">
+          <h2 data-aos="fade-right">Architecture</h2>
+          <p data-aos="fade-right">
+            When the design concepts have been decided, the architect prepares
+            working drawings and specifications.
+          </p>
+          <button
+            (click)="showArchitecture()"
+            class="btn btn-primary custom-css"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="col-lg-3 bg" data-aos="zoom-in" data-aos-delay="200">
+          <h2 data-aos="fade-right">Interior</h2>
+          <p data-aos="fade-right">
+            You may engage your architect to provide an interior service,
+            advising on loose furniture.
+          </p>
+          <button
+            (click)="showArchitecture()"
+            class="btn btn-primary custom-css"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="col-lg-3 bg" data-aos="zoom-in" data-aos-delay="200">
+          <h2 data-aos="fade-right">Liasoning</h2>
+          <p data-aos="fade-right">
+            As one of the successful architecture firms, we also play a pivotal
+            role when it comes to Liasoning services.
+          </p>
+          <button
+            (click)="showArchitecture()"
+            class="btn btn-primary custom-css"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 2 - Team Members -->
+  <div data-aos="fade-up">
+    <div>
+      <div style="text-align: center">
+        <h1>Team Members</h1>
+        <p style="color: #ff9800; font-size: 40px; margin-top: -50px">
+          _______
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col" data-aos="fade-right">
+            <div class="card">
+              <img src="assets/hitesh.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ar. Hitesh Mali</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-right">
+            <div class="card">
+              <img src="assets/varad.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ar. Varad Kolapkar</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-right">
+            <div class="card">
+              <img src="assets/shubham.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ar. Shubham Dighe</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col" data-aos="fade-right">
+            <div class="card">
+              <img src="assets/parsad.JPG" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ar. Prasad Khandve</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Description Section -->
+  <app-description-section></app-description-section>
+
+  <!-- Footer Section -->
+  <app-footer></app-footer>
+
+  <!-- Add this to display child routes -->
+  <router-outlet></router-outlet>
+</div>

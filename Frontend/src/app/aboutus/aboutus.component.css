@@ -1,0 +1,63 @@
+/*Section 1*/
+.bg {
+  background-color: white;
+  text-align: center;
+  padding: 19px;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 0px;
+}
+
+.bg:hover {
+  box-shadow: 0 8px 20px #ff9800;
+}
+
+.bg:hover h2 {
+  color: #ff9800;
+}
+
+.bg:hover p {
+  color: #555;
+}
+
+.custom-css {
+  border-radius: 10px;
+  padding: 7px 29px;
+  background: #ff9800 !important;
+  border-color: #ff9800;
+}
+.custom-css:hover {
+  background: #efeeed !important;
+  border-color: #ff9800;
+  color: black;
+}
+
+/* Section 2 */
+.card {
+  border: none;
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .gettouch {
+    text-align: center !important;
+  }
+  .bg {
+    margin-bottom: 20px;
+  }
+}

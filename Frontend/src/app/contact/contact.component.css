@@ -1,0 +1,60 @@
+.box {
+  box-shadow: 0 2px 6px rgb(211 211 211);
+}
+
+.links-media {
+  background: #f16823;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  margin-left: 20px;
+}
+
+.contact-info {
+  color: black;
+}
+
+.contact-info p {
+  color: rgb(101, 99, 99);
+}
+
+/*For input*/
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #f16823;
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+.custom-css {
+  padding: 7px 29px;
+  background: #ff9800 !important;
+  border: #ff9800;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.custom-css:hover {
+  background: white !important;
+  color: black;
+  border: 2px solid #ff9800 !important;
+}
+
+@media (max-width: 576px) {
+  .gettouch {
+    text-align: center !important;
+  }
+
+  .for2margin {
+    margin-top: 30px;
+  }
+}
